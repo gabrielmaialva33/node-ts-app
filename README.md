@@ -33,8 +33,6 @@
 
 <br>
 
-
-
 ## :bookmark: About
 
 **Node Typescript App** A complete Node.js project template using TypeScript and following general best practices.
@@ -52,7 +50,6 @@
 - **[Eslint](https://eslint.org/)**
 - **[Prettier](https://prettier.io/)**
 - **[Japa](https://japa.dev/)**
-
 
 <br>
 
@@ -77,7 +74,7 @@ The following software must be installed:
 ### :arrow_down: **Cloning the repository**
 
 ```sh
-  $ git clone https://github.com/gabrielmaialva33/node-ts-app-template.git 
+  $ git clone https://github.com/gabrielmaialva33/node-ts-app-template.git
 ```
 
 <br>
@@ -99,8 +96,8 @@ The following software must be installed:
 ### :writing_hand: **Author**
 
 | [![Gabriel Maia](https://avatars.githubusercontent.com/u/26732067?size=100)](https://github.com/demartini) |
-|------------------------------------------------------------------------------------------------------------|
-| [Gabriel Maia](https://github.com/gabrielmaialva33)                                                             |
+| ---------------------------------------------------------------------------------------------------------- |
+| [Gabriel Maia](https://github.com/gabrielmaialva33)                                                        |
 
 ## License
 
