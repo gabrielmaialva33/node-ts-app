@@ -2,7 +2,7 @@ import { assert } from '@japa/assert'
 import { apiClient } from '@japa/api-client'
 import { specReporter } from '@japa/spec-reporter'
 import { runFailedTests } from '@japa/run-failed-tests'
-import { processCliArgs, configure, run } from '@japa/runner'
+import { configure, processCliArgs, run } from '@japa/runner'
 
 /*
 |--------------------------------------------------------------------------

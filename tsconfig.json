@@ -1,8 +1,9 @@
 {
-  "extends": "./tsconfig.paths.json",
   "compilerOptions": {
     "incremental": true,
-    "lib": ["ESNext"],
+    "lib": [
+      "ESNext"
+    ],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "module": "commonjs",
@@ -10,7 +11,7 @@
     "moduleResolution": "node",
     "baseUrl": "./",
     "declaration": false,
-    "outDir": "./build",
+    "outDir": "./dist",
     "target": "ES2020",
     "removeComments": true,
     "esModuleInterop": true,
@@ -19,11 +20,25 @@
     "strictNullChecks": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
   },
-  "include": ["**/*"],
-  "exclude": ["node_modules/**/*", ".vscode/**/*", ".idea/**/*", "build"],
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    ".vscode/**/*",
+    ".idea/**/*",
+    "build"
+  ],
   "ts-node": {
-    "require": ["tsconfig-paths/register"]
+    "require": [
+      "tsconfig-paths/register"
+    ]
   }
 }
