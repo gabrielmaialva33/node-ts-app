@@ -4,5 +4,6 @@ coverage
 .vscode
 .DS_STORE
 .env
-tmp
 .idea/
+dist
+tmp
