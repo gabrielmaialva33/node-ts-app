@@ -37,10 +37,6 @@
 
 **Node Typescript App** A complete Node.js project template using TypeScript and following general best practices.
 
-<kbd>
-  <img src=".github/assets/images/schema.png" alt="schema">
-</kbd>
-
 <br>
 
 ## :computer: Technologies
