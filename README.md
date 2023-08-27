@@ -87,7 +87,7 @@ The following software must be installed:
   # install dependencies
   $ yarn # or npm install
   # run the application
-  $ yarn start:dev # or yarn watch:server
+  $ yarn start:dev # or yarn start
 ```
 
 <br>
