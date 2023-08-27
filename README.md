@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/gabrielmaialva33/node-ts-app-template/master/.github/assets/icon.png" alt="TypeScript" width="200">
+  <img src="https://raw.githubusercontent.com/gabrielmaialva33/node-ts-app/master/.github/assets/icon.png" alt="TypeScript" width="200">
   <br>
   A template for <a href="https://nodejs.org/en/">Node.js</a>
   <br>
@@ -11,12 +11,12 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/gabrielmaialva33/node-ts-app-template?color=00b8d3?style=flat&logo=appveyor" alt="License" />
-  <img src="https://img.shields.io/github/languages/top/gabrielmaialva33/node-ts-app-template?style=flat&logo=appveyor" alt="GitHub top language" >
-  <img src="https://img.shields.io/github/languages/count/gabrielmaialva33/node-ts-app-template?style=flat&logo=appveyor" alt="GitHub language count" >
-  <img src="https://img.shields.io/github/repo-size/gabrielmaialva33/node-ts-app-template?style=flat&logo=appveyor" alt="Repository size" >
-  <a href="https://github.com/gabrielmaialva33/node-ts-app-template/commits/master">
-    <img src="https://img.shields.io/github/last-commit/gabrielmaialva33/node-ts-app-template?style=flat&logo=appveyor" alt="GitHub last commit" >
+  <img src="https://img.shields.io/github/license/gabrielmaialva33/node-ts-app?color=00b8d3?style=flat&logo=appveyor" alt="License" />
+  <img src="https://img.shields.io/github/languages/top/gabrielmaialva33/node-ts-app?style=flat&logo=appveyor" alt="GitHub top language" >
+  <img src="https://img.shields.io/github/languages/count/gabrielmaialva33/node-ts-app?style=flat&logo=appveyor" alt="GitHub language count" >
+  <img src="https://img.shields.io/github/repo-size/gabrielmaialva33/node-ts-app?style=flat&logo=appveyor" alt="Repository size" >
+  <a href="https://github.com/gabrielmaialva33/node-ts-app/commits/master">
+    <img src="https://img.shields.io/github/last-commit/gabrielmaialva33/node-ts-app?style=flat&logo=appveyor" alt="GitHub last commit" >
     <img src="https://img.shields.io/badge/made%20by-Maia-15c3d6?style=flat&logo=appveyor" alt="Maia" >  
   </a>
 </p>
@@ -51,6 +51,7 @@
 
 ## :wrench: Tools
 
+- **[Visual Studio Code](https://code.visualstudio.com/)**
 - **[WebStorm](https://www.jetbrains.com/webstorm/)**
 
 <br>
@@ -64,13 +65,15 @@ The following software must be installed:
 - **[Node.js](https://nodejs.org/en/)**
 - **[Git](https://git-scm.com/)**
 - **[NPM](https://www.npmjs.com/)** or **[Yarn](https://yarnpkg.com/)**
+- **[Docker](https://www.docker.com/)**
+- **[Docker Compose](https://docs.docker.com/compose/)**
 
 <br>
 
 ### :arrow_down: **Cloning the repository**
 
 ```sh
-  $ git clone https://github.com/gabrielmaialva33/node-ts-app-template.git
+  $ git clone https://github.com/gabrielmaialva33/node-ts-app.git
 ```
 
 <br>
@@ -80,11 +83,11 @@ The following software must be installed:
 - :package: API
 
 ```sh
-  $ cd node-ts-app-template
-  # Dependencies install.
+  $ cd node-ts-app
+  # install dependencies
   $ yarn # or npm install
-  # start
-  $ yarn watch:dev # or yarn watch:server
+  # run the application
+  $ yarn start:dev # or yarn watch:server
 ```
 
 <br>
@@ -97,4 +100,4 @@ The following software must be installed:
 
 ## License
 
-[MIT License](./LICENSE)
+[MIT License](LICENSE)

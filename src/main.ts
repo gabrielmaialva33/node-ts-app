@@ -1,3 +1,3 @@
-import { hello } from '@/hello'
+import { systemInfo } from '@/system'
 
-hello()
+systemInfo()
