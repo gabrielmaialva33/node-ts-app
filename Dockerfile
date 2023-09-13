@@ -6,22 +6,21 @@ RUN apk --no-cache add dumb-init
 FROM base as dependencies
 COPY package*.json ./
 COPY --chown=node:node ./package*.json ./
-RUN yarn
+RUN npm install -g pnpm
+RUN pnpm install
 COPY --chown=node:node . .
 RUN rm -rf .git;
 
 FROM dependencies as build
-RUN yarn build
+RUN pnpm build
 
 FROM base as release
 COPY --from=dependencies /home/node/app/node_modules ./node_modules
-COPY --from=build /home/node/app/dist ./dist
+COPY --from=build /home/node/app/build ./build
 COPY --from=build /home/node/app/package.json ./package.json
-COPY --from=build /home/node/app/yarn.lock ./yarn.lock
-COPY --from=build /home/node/app/.env ./.env
+COPY --from=build /home/node/app/pnpm-lock.yaml ./pnpm-lock.yaml
 
 USER node
-EXPOSE 3000
-CMD ["dumb-init", "yarn", "start"]
+CMD ["dumb-init", "node", "build/main.js"]
 
 
