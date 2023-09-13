@@ -2,11 +2,11 @@ version: '3.8'
 services:
   app:
     build:
-        context: .
-        dockerfile: Dockerfile
+      context: .
+      dockerfile: Dockerfile
     container_name: app
     ports:
-        - "3000:3000"
+      - '3000:3000'
     restart: always
     volumes:
-        - .:/app
+      - .:/app
