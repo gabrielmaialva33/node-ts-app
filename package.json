@@ -80,7 +80,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@swc/core": "^1.3.96",
+    "@swc/core": "^1.3.99",
     "reflect-metadata": "^0.1.13",
     "source-map-support": "^0.5.21"
   }
