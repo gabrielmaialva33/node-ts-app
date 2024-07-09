@@ -45,7 +45,6 @@
 - **[Node.js](https://nodejs.org/)**
 - **[Eslint](https://eslint.org/)**
 - **[Prettier](https://prettier.io/)**
-- **[Japa](https://japa.dev/)**
 
 <br>
 

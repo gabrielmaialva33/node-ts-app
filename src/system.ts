@@ -1,6 +1,6 @@
-import * as console from 'console'
-import * as process from 'process'
-import * as os from 'os'
+import console from 'node:console'
+import process from 'node:process'
+import os from 'node:os'
 
 const platform = os.platform()
 const arch = os.arch()

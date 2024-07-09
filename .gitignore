@@ -1,9 +1,22 @@
+# Dependencies and build
 node_modules
 build
-coverage
-.vscode
-.DS_STORE
-.env
-.idea/
-dist
 tmp
+
+# Secrets
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Build tools specific
+npm-debug.log
+yarn-error.log
+
+# Editors specific
+.fleet
+.idea
+.vscode
+
+# Platform specific
+.DS_Store
