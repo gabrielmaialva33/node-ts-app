@@ -21,6 +21,6 @@ COPY --from=build /home/node/app/package.json ./package.json
 COPY --from=build /home/node/app/pnpm-lock.yaml ./pnpm-lock.yaml
 
 USER node
-CMD ["dumb-init", "node", "build/main.js"]
+CMD ["dumb-init", "node", "build/src/index.js"]
 
 
