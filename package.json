@@ -26,7 +26,7 @@
     "build": "rimraf build && tsc",
     "start": "node build/src/index.js",
     "start:dev": "tsc --watch & nodemon build/src/index.js",
-    "lint": "eslint . --ext=.ts",
+    "lint": "eslint .",
     "format": "prettier --write ."
   },
   "eslintConfig": {
@@ -34,7 +34,7 @@
   },
   "prettier": "@adonisjs/prettier-config",
   "devDependencies": {
-    "@adonisjs/eslint-config": "^1.3.0",
+    "@adonisjs/eslint-config": "2.0.0-beta.7",
     "@adonisjs/prettier-config": "^1.4.0",
     "@adonisjs/tsconfig": "^1.4.0",
     "@types/node": "^22.10.5",
