@@ -37,7 +37,7 @@
     "@adonisjs/eslint-config": "2.0.0-beta.7",
     "@adonisjs/prettier-config": "^1.4.0",
     "@adonisjs/tsconfig": "^1.4.0",
-    "@types/node": "^22.10.5",
+    "@types/node": "^22.12.0",
     "@typescript-eslint/eslint-plugin": "^8.19.1",
     "@typescript-eslint/parser": "^8.19.1",
     "eslint": "^9.17.0",
