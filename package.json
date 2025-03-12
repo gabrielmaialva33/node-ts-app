@@ -35,7 +35,7 @@
   "prettier": "@adonisjs/prettier-config",
   "devDependencies": {
     "@adonisjs/eslint-config": "2.0.0-beta.7",
-    "@adonisjs/prettier-config": "^1.4.0",
+    "@adonisjs/prettier-config": "^1.4.4",
     "@adonisjs/tsconfig": "^1.4.0",
     "@types/node": "^22.13.0",
     "@typescript-eslint/eslint-plugin": "^8.22.0",
