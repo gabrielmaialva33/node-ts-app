@@ -39,7 +39,7 @@
   "prettier": "@adonisjs/prettier-config",
   "devDependencies": {
     "@adonisjs/eslint-config": "2.0.0",
-    "@adonisjs/prettier-config": "^1.4.4",
+    "@adonisjs/prettier-config": "^1.4.5",
     "@adonisjs/tsconfig": "^1.4.0",
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
