@@ -61,7 +61,7 @@
     "vitest": "^3.1.4"
   },
   "dependencies": {
-    "dotenv": "^16.5.0",
+    "dotenv": "^17.2.3",
     "reflect-metadata": "^0.2.2",
     "source-map-support": "^0.5.21",
     "zod": "^3.25.42"
