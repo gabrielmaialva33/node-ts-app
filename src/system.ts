@@ -2,17 +2,17 @@ import console from 'node:console'
 import process from 'node:process'
 import os from 'node:os'
 
-const platform = os.platform()
-const arch = os.arch()
-const release = os.release()
-const cpus = os.cpus()
-const totalmem = os.totalmem()
-const freemem = os.freemem()
-const hostname = os.hostname()
-const uptime = os.uptime()
-const userInfo = os.userInfo()
-
 export function systemInfo() {
+  const platform = os.platform()
+  const arch = os.arch()
+  const release = os.release()
+  const cpus = os.cpus()
+  const totalmem = os.totalmem()
+  const freemem = os.freemem()
+  const hostname = os.hostname()
+  const uptime = os.uptime()
+  const userInfo = os.userInfo()
+
   console.log(`
     Hello from Node.js ${process.version}!
 

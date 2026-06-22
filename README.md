@@ -61,11 +61,9 @@
 
 The following software must be installed:
 
-- **[Node.js](https://nodejs.org/en/)**
+- **[Node.js](https://nodejs.org/en/)** (LTS, >= 24)
+- **[pnpm](https://pnpm.io/)**
 - **[Git](https://git-scm.com/)**
-- **[NPM](https://www.npmjs.com/)** or **[Yarn](https://yarnpkg.com/)**
-- **[Docker](https://www.docker.com/)**
-- **[Docker Compose](https://docs.docker.com/compose/)**
 
 <br>
 
@@ -79,15 +77,30 @@ The following software must be installed:
 
 ### :arrow_forward: **Running the application**
 
-- :package: API
-
 ```sh
   $ cd node-ts-app
   # install dependencies
-  $ yarn # or npm install
-  # run the application
-  $ yarn start:dev # or yarn start
+  $ pnpm install
+  # run in watch mode
+  $ pnpm start:dev
+  # or build and run
+  $ pnpm build && pnpm start
 ```
+
+<br>
+
+### :test_tube: **Available scripts**
+
+| Script               | Description                       |
+| -------------------- | --------------------------------- |
+| `pnpm start:dev`     | Run in watch mode (tsc + nodemon) |
+| `pnpm build`         | Compile TypeScript to `build/`    |
+| `pnpm start`         | Run the compiled app              |
+| `pnpm typecheck`     | Type-check without emitting       |
+| `pnpm lint`          | Lint with ESLint                  |
+| `pnpm format`        | Format with Prettier              |
+| `pnpm test`          | Run tests with Vitest             |
+| `pnpm test:coverage` | Run tests with coverage           |
 
 <br>
 

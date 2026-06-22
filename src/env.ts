@@ -1,5 +1,10 @@
-import 'dotenv/config'
+import process from 'node:process'
+import console from 'node:console'
+import { config } from 'dotenv'
 import { z } from 'zod'
+
+// Load .env into process.env. quiet: true suppresses dotenv v17's startup logging.
+config({ quiet: true })
 
 // Define schema for environment variables with validation
 const envSchema = z.object({
